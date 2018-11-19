@@ -8,19 +8,19 @@ server:
 spring:
    profiles: dev
    application:
-	 name:microservicecloud-config-client
+         name:microservicecloud-config-client
 eureka:
     client:
       service-url:
-	   defaultZone:http//eureka-dev.com/eureka/
+          defaultZone:http//eureka-dev.com/eureka/
 ---
 server:
    port: 8202
 spring:
    profiles: test
    application:
-	  name:microservicecloud-config-client
+          name:microservicecloud-config-client
 eureka:
     client:
       service-url:
-	    defaultZone:http//eureka-test.com/eureka/
+           defaultZone:http//eureka-test.com/eureka/
